@@ -14,7 +14,7 @@ open class TMTabItemBarButton: TMBarButton {
     // MARK: Defaults
     
     private struct Defaults {
-        static let imagePadding: CGFloat = 0
+        static let imagePadding: CGFloat = 15
         static let imageSize = CGSize(width: 20.0, height: 20.0)
         static let labelPadding: CGFloat = 0
         static let labelTopPadding: CGFloat = 0
