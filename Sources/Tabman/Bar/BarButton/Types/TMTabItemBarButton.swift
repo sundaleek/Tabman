@@ -14,12 +14,12 @@ open class TMTabItemBarButton: TMBarButton {
     // MARK: Defaults
     
     private struct Defaults {
-        static let imagePadding: CGFloat = 8.0
+        static let imagePadding: CGFloat = 0
         static let imageSize = CGSize(width: 20.0, height: 20.0)
-        static let labelPadding: CGFloat = 4.0
-        static let labelTopPadding: CGFloat = 6.0
+        static let labelPadding: CGFloat = 0
+        static let labelTopPadding: CGFloat = 0
         static let shrunkenImageScale: CGFloat = 1.0
-        static let badgeInsets = UIEdgeInsets(top: 4.0, left: 4.0, bottom: 0.0, right: 4.0)
+        static let badgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0.0, right: 0)
     }
     
     // MARK: Properties
